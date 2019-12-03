@@ -28,7 +28,6 @@ Space to accept current suggestion
 * Nodes represent words
 * Edge connecting two words A and B with weight N indicates we've encountered N instances of the pair A B.
 
-### Full-Text search over Redis by RedisLabs
 <img src="/img/model.png"/>
 
 ## Personalization
