@@ -5,15 +5,21 @@ where given a previous word and a prefix the system will try to predict which wo
 <img src="/img/demo.gif"/>
 
 ## Running
-Make sure RedisGraph is accessible,
+Make sure [RedisGraph](http://redisgraph.io/) is accessible,
 
+```
 docker run --rm -p 6379:6379 redislabs/redisgraph:edge
+```
 
 ### Load data
+```python
 python3 load.py
+```
 
 ### Run suggestion server
+```python
 python3 complete.py
+```
 
 Tab to iterate through suggestions
 Space to accept current suggestion
