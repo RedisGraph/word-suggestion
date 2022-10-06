@@ -8,7 +8,7 @@ where given a previous word and a prefix the system will try to predict which wo
 Make sure [RedisGraph](http://redisgraph.io/) is accessible,
 
 ```
-docker run --rm -p 6379:6379 redislabs/redisgraph:edge
+docker run --rm -p 6379:6379 redis/redis-stack:edge
 ```
 
 ### Load data
